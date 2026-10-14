@@ -1,0 +1,3 @@
+/websites    /business/   301
+/websites/   /business/   301
+/websites/*  /business/   301

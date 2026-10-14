@@ -1,0 +1,832 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Websites for Local Businesses | AYSTO</title>
+<meta name="description" content="A website that brings in customers, live in 7 days. See your new site before you pay a penny. From £950, half upfront and half when you're happy.">
+<link rel="canonical" href="https://aystoai.com/business/">
+<meta name="theme-color" content="#FFFFFF">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aystoai.com/business/">
+<meta property="og:title" content="AYSTO | See your new website before you pay a penny">
+<meta property="og:description" content="Live in 7 days. From £950. Half upfront, half when you're happy.">
+<meta property="og:image" content="https://aystoai.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--text:#0E1A1C;--muted:#5A6A6E;--line:#E3E9E7;--line-2:#D3DCD9;--teal:#178A7A;--mint:#5EE0C6;--navy:#0B1A3A;--blue:#2563EB;--soft:#F4F7F6;--mono:"JetBrains Mono",ui-monospace,monospace}
+html{scroll-behavior:smooth}
+body{background:#fff;color:var(--text);font:16px/1.6 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:clip}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;letter-spacing:-.03em;line-height:1.06}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+.eyebrow{display:inline-block;font:500 12px var(--mono);letter-spacing:.22em;text-transform:uppercase;color:var(--teal);margin-bottom:18px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:15px 26px;border-radius:100px;font:600 16px Inter,sans-serif;border:none;cursor:pointer;white-space:nowrap;transition:transform .2s,box-shadow .2s,background .2s}
+.btn-blue{background:linear-gradient(135deg,#3B82F6,#1D4ED8);color:#fff;box-shadow:0 12px 28px -12px rgba(37,99,235,.65)}
+.btn-blue:hover{background:linear-gradient(135deg,#4F8FF7,#2563EB);transform:translateY(-1px)}
+.btn-ghost{background:rgba(255,255,255,.06);color:#fff;border:1px solid rgba(255,255,255,.22)}
+.btn-ghost:hover{border-color:rgba(255,255,255,.5)}
+.btn-ink{background:#0E1A1C;color:#fff}
+.btn-ink:hover{background:#1B2B2E}
+.btn-line{background:#fff;color:var(--text);border:1px solid var(--line-2)}
+.btn-line:hover{border-color:#9FB0AC}
+.btn-sm{padding:10px 18px;font-size:14.5px}
+
+/* nav */
+nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
+.logo{display:inline-flex;align-items:center;gap:10px;font:700 20px "Space Grotesk",sans-serif;letter-spacing:.14em}
+.nav-r{display:flex;align-items:center;gap:26px;font-size:15px;color:var(--muted)}
+.nav-r a:not(.btn):hover{color:var(--text)}
+
+/* hero */
+.hero{position:relative;color:#fff;padding:90px 0 96px;overflow:hidden;
+  background:radial-gradient(70% 90% at 90% 0%,rgba(59,130,246,.34),transparent 60%),radial-gradient(55% 80% at 0% 100%,rgba(26,158,140,.26),transparent 60%),var(--navy)}
+.hero::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.09) 1px,transparent 1px);background-size:22px 22px;mask-image:linear-gradient(90deg,transparent,#000 70%);-webkit-mask-image:linear-gradient(90deg,transparent,#000 70%);pointer-events:none}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center}
+.hero .eyebrow{color:var(--mint)}
+.hero h1{font-size:clamp(42px,5.6vw,72px);margin-bottom:22px}
+.hero h1 span{background:linear-gradient(90deg,#5EE0C6,#60A5FA);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-sub{font-size:clamp(17px,1.6vw,19px);color:#C9D3EA;max-width:520px;margin-bottom:34px}
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap}
+.ticks{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:30px;font-size:14px;color:#A9B6D3}
+.ticks span{display:inline-flex;align-items:center;gap:8px}
+.ticks span::before{content:"";width:16px;height:16px;border-radius:50%;background:rgba(94,224,198,.16) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235EE0C6' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4 8-9'/%3E%3C/svg%3E") center/10px no-repeat}
+
+/* hero mock: a site going live */
+.mock{position:relative;justify-self:center;width:100%;max-width:470px}
+.br{border-radius:18px;overflow:hidden;background:#fff;color:var(--text);box-shadow:0 50px 90px -40px rgba(0,0,0,.7),0 0 0 1px rgba(255,255,255,.08)}
+.br-top{display:flex;align-items:center;gap:6px;padding:11px 14px;background:#EEF1F4;border-bottom:1px solid #E1E6EA}
+.br-top i{width:9px;height:9px;border-radius:50%;background:#D3DAE0}
+.br-url{margin-left:10px;flex:1;height:22px;border-radius:7px;background:#fff;font:500 11px var(--mono);color:#6B7B7F;display:flex;align-items:center;padding:0 10px}
+.br-body{padding:18px}
+.mk-nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.mk-logo{font:700 14px "Space Grotesk",sans-serif;letter-spacing:.08em}
+.mk-links{display:flex;gap:8px}.mk-links i{width:28px;height:6px;border-radius:3px;background:#E4E9EC}
+.mk-hero{border-radius:14px;padding:22px 20px;color:#fff;background:radial-gradient(70% 90% at 100% 0%,rgba(96,165,250,.5),transparent 60%),linear-gradient(150deg,#16365C,#0B1A3A)}
+.mk-hero small{font:500 10px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:#9EC5FF}
+.mk-hero b{display:block;font:700 23px/1.1 "Space Grotesk",sans-serif;letter-spacing:-.02em;margin:8px 0 12px}
+.mk-hero span{display:inline-block;font:600 12px Inter,sans-serif;background:#fff;color:#0B1A3A;border-radius:100px;padding:7px 13px}
+.mk-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:12px}
+.mk-cards div{border:1px solid #E6EBEE;border-radius:11px;padding:10px}
+.mk-cards em{display:block;width:100%;height:34px;border-radius:7px;background:linear-gradient(135deg,#E6F2EF,#DCE8F8);margin-bottom:8px}
+.mk-cards b{display:block;height:6px;width:70%;border-radius:3px;background:#D6DEE2;margin-bottom:5px}
+.mk-cards s{display:block;height:6px;width:45%;border-radius:3px;background:#E8EDEF}
+.toast{position:absolute;display:flex;align-items:center;gap:10px;padding:10px 14px 10px 10px;border-radius:14px;background:#fff;color:var(--text);box-shadow:0 24px 50px -20px rgba(0,0,0,.55);font-size:13px;line-height:1.3;white-space:nowrap}
+.toast b{display:block;font-size:13px}.toast small{color:var(--muted);font-size:11.5px}
+.toast .ti{width:32px;height:32px;border-radius:10px;display:grid;place-items:center;flex-shrink:0}
+.t1{left:-34px;bottom:56px;animation:float 5s ease-in-out infinite}
+.t1 .ti{background:#EAF7F3;color:var(--teal)}
+.t2{right:-26px;top:72px;animation:float 5s ease-in-out 1.4s infinite}
+.t2 .ti{background:#EEF4FF;color:var(--blue)}
+@keyframes float{50%{transform:translateY(-8px)}}
+
+/* sections */
+section{padding:110px 0}
+.head{max-width:680px;margin-bottom:54px}
+.head.c{text-align:center;margin-left:auto;margin-right:auto}
+.head h2{font-size:clamp(34px,4.6vw,54px);margin-bottom:14px}
+.head h2 .dim{color:#8A989C}
+.head p{font-size:18px;color:var(--muted)}
+
+/* prices */
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch}
+.plan{position:relative;display:flex;flex-direction:column;border:1px solid var(--line);border-radius:22px;padding:32px 28px 28px;background:#fff;box-shadow:0 1px 2px rgba(14,26,28,.04),0 24px 50px -36px rgba(11,26,58,.3)}
+.plan.pop{border-color:#93B4F8;box-shadow:0 0 0 3px rgba(37,99,235,.08),0 30px 60px -36px rgba(37,99,235,.45)}
+.tag{position:absolute;top:-12px;left:28px;padding:4px 12px;border-radius:100px;font:500 11px var(--mono);letter-spacing:.12em;text-transform:uppercase;background:linear-gradient(135deg,#3B82F6,#1D4ED8);color:#fff}
+.plan-ic{width:44px;height:44px;border-radius:13px;display:grid;place-items:center;background:#F1F8F6;color:var(--teal);margin-bottom:18px}
+.plan.pop .plan-ic{background:#EEF4FF;color:var(--blue)}
+.plan h3{font-size:24px;letter-spacing:-.02em;margin-bottom:6px}
+.plan .for{color:var(--muted);font-size:15px;margin-bottom:20px;min-height:48px}
+.price{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid var(--line)}
+.price small{font:500 12px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);width:100%;margin-bottom:-2px}
+.price b{font:700 42px/1 "Space Grotesk",sans-serif;letter-spacing:-.03em}
+.price span{font-size:14px;color:var(--muted)}
+.plan ul{list-style:none;display:grid;gap:11px;margin-bottom:26px}
+.plan li{display:flex;gap:10px;font-size:15px;color:#24363A;line-height:1.45}
+.plan li::before{content:"✓";color:var(--teal);font-weight:700;flex-shrink:0}
+.plan .btn{margin-top:auto;width:100%}
+.hear{display:flex;align-items:center;gap:12px;margin:-8px 0 22px;padding:10px 12px;border-radius:14px;background:var(--soft);border:1px solid var(--line);cursor:pointer;font:inherit;text-align:left;color:inherit;width:100%}
+.hear .pb{flex:0 0 34px;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:#0E1A1C;color:#fff}
+.hear b{display:block;font-size:14px}
+.hear small{display:block;font-size:12.5px;color:var(--muted)}
+.hear .bar{display:block;height:3px;border-radius:3px;background:#DDE5E3;margin-top:6px;overflow:hidden}
+.hear .bar i{display:block;height:100%;width:0;background:var(--teal)}
+.hear .i-pause{display:none}.hear.on .i-play{display:none}.hear.on .i-pause{display:block}
+
+.extras{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:22px}
+.extra{display:flex;gap:18px;align-items:flex-start;border:1px solid var(--line);border-radius:20px;padding:24px 26px;background:var(--soft)}
+.extra .plan-ic{margin:0;flex-shrink:0;background:#fff}
+.extra h3{font-size:19px;letter-spacing:-.01em;margin-bottom:4px}
+.extra p{font-size:14.5px;color:var(--muted)}
+.extra .amt{font:700 19px "Space Grotesk",sans-serif;color:var(--text);white-space:nowrap}
+.extra .amt small{font:500 13px Inter,sans-serif;color:var(--muted)}
+.extra a{color:var(--blue);font-weight:600}
+
+/* how + included */
+.dark{color:#fff;background:radial-gradient(60% 70% at 100% 0%,rgba(59,130,246,.28),transparent 60%),radial-gradient(50% 60% at 0% 100%,rgba(26,158,140,.2),transparent 60%),var(--navy)}
+.dark .eyebrow{color:var(--mint)}
+.dark .head h2 .dim{color:#8392B8}
+.dark .head p{color:#A9B6D3}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.step{border:1px solid rgba(160,185,235,.18);border-radius:20px;padding:26px 24px;background:rgba(255,255,255,.05)}
+.step .n{font:500 13px var(--mono);color:var(--mint);display:flex;align-items:center;gap:12px;margin-bottom:34px}
+.step .n::after{content:"";flex:1;height:1px;background:rgba(160,185,235,.22)}
+.step h3{font-size:21px;margin-bottom:8px}
+.step p{font-size:15px;color:#A9B6D3}
+.incl{display:grid;grid-template-columns:repeat(4,1fr);gap:14px 26px;margin-top:56px;padding-top:40px;border-top:1px solid rgba(160,185,235,.16)}
+.incl div{display:flex;gap:10px;font-size:15px;color:#DCE3F0}
+.incl div::before{content:"✓";color:var(--mint);font-weight:700}
+
+
+/* ---------- showreel ---------- */
+.reel-sec{padding:100px 0 30px;background:linear-gradient(#fff,#F6F8FB)}
+.reel{max-width:1000px;margin:0 auto}
+.rl-fit{position:relative;width:100%;aspect-ratio:1000/600}
+.rl-stage{position:absolute;left:0;top:0;width:1000px;height:600px;transform-origin:0 0;transform:scale(var(--s,1))}
+.rl-br{position:absolute;left:0;top:10px;width:820px;height:540px;border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 60px 110px -50px rgba(11,26,58,.55),0 0 0 1px rgba(11,26,58,.08)}
+.rl-top{height:38px;display:flex;align-items:center;gap:7px;padding:0 14px;background:#EEF1F4;border-bottom:1px solid #E1E6EA}
+.rl-top i{width:10px;height:10px;border-radius:50%;background:#D3DAE0}
+.rl-url{margin-left:14px;flex:0 1 330px;height:24px;border-radius:7px;background:#fff;display:flex;align-items:center;gap:7px;padding:0 10px;font:500 11.5px var(--mono);color:#56656A}
+.rl-url b{font-weight:500}
+.rl-url u{width:1px;height:13px;background:#56656A;animation:rlblink 1s steps(1) infinite}
+@keyframes rlblink{50%{opacity:0}}
+.rl-view{position:relative;height:502px;overflow:hidden}
+.rl-ph{position:absolute;right:0;bottom:0;width:216px;height:440px;border-radius:36px;padding:9px;background:#0E1A1C;box-shadow:0 50px 90px -40px rgba(11,26,58,.7),0 0 0 1px rgba(255,255,255,.06) inset;opacity:0;transform:translateY(40px) rotate(2deg);transition:opacity .8s,transform 1s cubic-bezier(.2,.8,.2,1)}
+.rl-ph.in{opacity:1;transform:none}
+.rl-ph-in{position:relative;height:100%;border-radius:28px;overflow:hidden;background:#fff}
+.rl-notch{position:absolute;z-index:5;left:50%;top:8px;width:62px;height:17px;margin-left:-31px;border-radius:10px;background:#0E1A1C}
+.rl-mview{position:absolute;inset:0;transition:transform 3.2s cubic-bezier(.45,0,.25,1)}
+.rl-toast{position:absolute;right:150px;top:0;z-index:6;display:flex;align-items:center;gap:11px;padding:11px 16px 11px 11px;border-radius:15px;background:#fff;box-shadow:0 26px 50px -20px rgba(11,26,58,.45),0 0 0 1px rgba(11,26,58,.06);opacity:0;transform:translateY(-14px) scale(.96);transition:opacity .45s,transform .5s cubic-bezier(.2,.8,.2,1)}
+.rl-toast.in{opacity:1;transform:none}
+.rl-toast b{display:block;font-size:13.5px;line-height:1.2}
+.rl-toast small{font-size:12px;color:var(--muted)}
+.rl-ti{width:32px;height:32px;border-radius:10px;display:grid;place-items:center;background:#E8F7F2;color:var(--teal)}
+.rl-cur{position:absolute;z-index:8;left:0;top:0;opacity:0;transition:transform .95s cubic-bezier(.45,0,.2,1),opacity .4s;pointer-events:none;filter:drop-shadow(0 4px 8px rgba(0,0,0,.3))}
+.rl-cur.in{opacity:1}
+.rl-cur i{position:absolute;left:-14px;top:-14px;width:30px;height:30px;border-radius:50%;border:2px solid rgba(255,255,255,.9);opacity:0}
+.rl-cur.clk i{animation:rlclk .5s ease-out}
+@keyframes rlclk{0%{opacity:1;transform:scale(.3)}100%{opacity:0;transform:scale(1.5)}}
+.rl-tabs{display:flex;justify-content:center;gap:10px;margin-top:22px;flex-wrap:wrap}
+.rl-tab{position:relative;overflow:hidden;appearance:none;display:flex;align-items:center;gap:10px;padding:10px 18px 10px 10px;border-radius:100px;border:1px solid var(--line);background:#fff;cursor:pointer;font:inherit;color:var(--muted);text-align:left;transition:border-color .2s,color .2s,box-shadow .2s}
+.rl-tab b{display:block;font-size:14px;color:inherit;line-height:1.2}
+.rl-tab small{display:block;font-size:12px;color:#8A989C}
+.rl-tab .sw{width:30px;height:30px;border-radius:50%;flex-shrink:0}
+.rl-tab.on{color:var(--text);border-color:#C9D6E8;box-shadow:0 14px 30px -20px rgba(11,26,58,.45)}
+.rl-tab .pg{position:absolute;left:0;bottom:0;height:2px;width:0;background:var(--blue)}
+
+/* the example sites (themed with --bg --ink --acc --acc-ink --soft --muted2 --line2 --hf) */
+.ws{position:absolute;inset:0;background:var(--bg);color:var(--ink);font-family:Inter,sans-serif;clip-path:inset(0 100% 0 0);transition:clip-path 1s cubic-bezier(.7,0,.2,1)}
+.ws.in{clip-path:inset(0 0 0 0)}
+.rv{opacity:0;transform:translateY(16px);transition:opacity .7s cubic-bezier(.2,.8,.2,1),transform .8s cubic-bezier(.2,.8,.2,1);transition-delay:var(--d,0s)}
+.in .rv{opacity:1;transform:none}
+.ws-nav{display:flex;align-items:center;justify-content:space-between;padding:20px 34px}
+.ws-logo{font:700 18px var(--hf);letter-spacing:.04em}
+.ws-links{display:flex;gap:22px;font-size:13px;color:var(--muted2)}
+.ws-nb{font:600 12.5px Inter,sans-serif;padding:9px 16px;border-radius:100px;background:var(--acc);color:var(--acc-ink)}
+.ws-hero{display:grid;grid-template-columns:1.05fr .95fr;gap:26px;padding:14px 34px 0;align-items:center}
+.ws-k{font:600 11px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--acc)}
+.ws-h{font:700 46px/1.02 var(--hf);letter-spacing:-.025em;margin:12px 0 14px}
+.ws-p{font-size:14px;line-height:1.55;color:var(--muted2);max-width:330px;margin-bottom:20px}
+.ws-cta{display:flex;gap:10px;align-items:center}
+.ws-b1{position:relative;font:600 13.5px Inter,sans-serif;padding:12px 20px;border-radius:100px;background:var(--acc);color:var(--acc-ink);transition:transform .15s}
+.ws-b1.prs{transform:scale(.94)}
+.ws-b2{font:500 13px Inter,sans-serif;color:var(--ink);opacity:.8}
+.ws-art{position:relative;height:250px;border-radius:22px;overflow:hidden;background:var(--art);transform:scale(1.12);opacity:0;transition:transform 2.6s cubic-bezier(.2,.8,.2,1),opacity 1s}
+.in .ws-art{transform:none;opacity:1}
+.ws-art svg{position:absolute;left:50%;top:50%;width:110px;height:110px;margin:-55px 0 0 -55px;color:var(--art-ink);opacity:.9}
+.ws-art .bdg{position:absolute;left:14px;bottom:14px;font:600 11.5px Inter,sans-serif;padding:7px 11px;border-radius:100px;background:rgba(255,255,255,.92);color:#0E1A1C}
+.ws-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;padding:22px 34px 0}
+.ws-c{padding:14px 15px;border-radius:14px;background:var(--soft);border:1px solid var(--line2)}
+.ws-c b{display:block;font:600 14px var(--hf);margin-bottom:3px}
+.ws-c span{font-size:12px;color:var(--muted2)}
+.ws-c em{float:right;font-style:normal;font-weight:600;font-size:13px;color:var(--acc)}
+.ws-skel{position:absolute;inset:0;padding:22px 34px;background:#fff;transition:opacity .5s}
+.ws-skel.out{opacity:0}
+.ws-skel i{display:block;border-radius:8px;background:linear-gradient(90deg,#EEF1F4 0%,#F7F9FA 50%,#EEF1F4 100%);background-size:200% 100%;animation:rlsh 1.2s linear infinite;margin-bottom:12px}
+@keyframes rlsh{to{background-position:-200% 0}}
+/* booking sheet */
+.ws-modal{position:absolute;inset:0;z-index:4;display:grid;place-items:center;background:rgba(10,14,20,.38);opacity:0;pointer-events:none;transition:opacity .35s}
+.ws-modal.in{opacity:1}
+.ws-sheet{width:330px;border-radius:18px;background:#fff;color:#0E1A1C;padding:20px;box-shadow:0 40px 80px -30px rgba(0,0,0,.5);transform:translateY(24px) scale(.97);transition:transform .45s cubic-bezier(.2,.8,.2,1)}
+.ws-modal.in .ws-sheet{transform:none}
+.ws-sheet h4{font:700 17px var(--hf);margin-bottom:3px}
+.ws-sheet p{font-size:12px;color:#6B7B7F;margin-bottom:14px}
+.ws-days{display:flex;gap:6px;margin-bottom:12px}
+.ws-days span{flex:1;text-align:center;padding:7px 0;border-radius:10px;border:1px solid #E3E9E7;font:600 11.5px Inter,sans-serif;color:#36464A}
+.ws-days span.on{background:#0E1A1C;color:#fff;border-color:#0E1A1C}
+.ws-slots{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:14px}
+.ws-slots span{text-align:center;padding:8px 0;border-radius:9px;border:1px solid #E3E9E7;font:500 12px Inter,sans-serif;transition:all .25s}
+.ws-slots span.x{color:#B8C2C0;text-decoration:line-through}
+.ws-slots span.on{background:var(--acc);color:var(--acc-ink);border-color:var(--acc)}
+.ws-go{display:block;text-align:center;padding:11px;border-radius:100px;background:#0E1A1C;color:#fff;font:600 13px Inter,sans-serif;transition:background .3s}
+.ws-go.ok{background:#178A7A}
+/* mobile version inside the phone */
+.wm{position:absolute;left:0;right:0;top:0;background:var(--bg);color:var(--ink);padding:38px 14px 30px;font-family:Inter,sans-serif;min-height:100%}
+.wm .ws-nav{padding:0 0 14px}
+.wm .ws-logo{font-size:13px}
+.wm .ws-links{display:none}
+.wm .ws-nb{font-size:10px;padding:6px 10px}
+.wm .ws-art{height:130px;border-radius:14px;margin-bottom:14px}
+.wm .ws-art svg{width:60px;height:60px;margin:-30px 0 0 -30px}
+.wm .ws-art .bdg{font-size:9px;left:8px;bottom:8px;padding:5px 8px}
+.wm .ws-h{font-size:25px;margin:8px 0 8px}
+.wm .ws-k{font-size:8.5px}
+.wm .ws-p{font-size:11px;margin-bottom:12px}
+.wm .ws-b1{font-size:11px;padding:9px 14px}
+.wm .ws-cards{grid-template-columns:1fr;padding:16px 0 0;gap:8px}
+.wm .ws-c{padding:11px 12px}
+.wm .ws-c b{font-size:12px}.wm .ws-c span{font-size:10.5px}.wm .ws-c em{font-size:11px}
+@media (max-width:640px){.reel-sec{padding:70px 0 20px}.rl-tab small{display:none}.rl-tab{padding:8px 14px 8px 8px}.rl-tab .sw{width:24px;height:24px}}
+
+/* problem */
+.probs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.pr{border:1px solid var(--line);border-radius:20px;padding:26px 24px;background:#fff;box-shadow:0 1px 2px rgba(14,26,28,.04),0 24px 50px -40px rgba(11,26,58,.3)}
+.pr .plan-ic{background:#FFF3EC;color:#C2410C}
+.pr h3{font-size:20px;margin-bottom:8px;letter-spacing:-.02em}
+.pr p{font-size:15px;color:var(--muted)}
+.steps.three{grid-template-columns:repeat(3,1fr)}
+/* pricing */
+.plans.two{grid-template-columns:repeat(2,1fr);max-width:860px;margin:0 auto}
+.pay-note{text-align:center;margin-top:22px;font-size:15px;color:var(--muted)}
+/* add-ons */
+section.soft{background:var(--soft)}
+.ads{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.ad{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:20px;padding:24px;background:#fff}
+.ad .plan-ic{margin-bottom:14px}
+.ad h3{font-size:19px;letter-spacing:-.01em;margin-bottom:6px}
+.ad p{font-size:14.5px;color:var(--muted);margin-bottom:16px}
+.ad .hear{margin:0 0 16px}
+.ad-p{margin-top:auto;align-self:flex-start;font:600 13px Inter,sans-serif;padding:7px 12px;border-radius:100px;background:#EEF4FF;color:var(--blue)}
+/* case study placeholder */
+.cs{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;border:2px dashed #C9D6D3;border-radius:24px;padding:36px}
+.cs-img{aspect-ratio:4/3;border-radius:16px;background:var(--soft);display:grid;place-items:center;color:var(--muted);font-size:14px}
+.cs h2{font-size:30px;margin-bottom:14px}
+.cs p{color:var(--muted);margin-bottom:10px}
+.cs-q{font-style:italic;color:var(--text)!important}
+/* final form */
+.final2{color:#fff;background:radial-gradient(60% 80% at 100% 0%,rgba(59,130,246,.32),transparent 60%),radial-gradient(50% 70% at 0% 100%,rgba(26,158,140,.24),transparent 60%),var(--navy)}
+.fin-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}
+.fin-copy .eyebrow{color:var(--mint)}
+.fin-copy h2{font-size:clamp(34px,4.4vw,52px);margin-bottom:16px}
+.fin-copy p{color:#C9D3EA;font-size:18px;margin-bottom:24px;max-width:460px}
+.fin-ticks{list-style:none;display:grid;gap:10px;margin-bottom:28px}
+.fin-ticks li{display:flex;gap:10px;color:#DCE3F0}
+.fin-ticks li::before{content:"✓";color:var(--mint);font-weight:700}
+.fin-alt{color:#fff;font-weight:600;text-decoration:underline;text-underline-offset:4px}
+.mk-form-wrap{border-radius:24px;background:#fff;color:var(--text);padding:30px;box-shadow:0 50px 90px -40px rgba(0,0,0,.6)}
+.mk-form{display:grid;gap:16px}
+.mf2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+[hidden]{display:none!important}
+.mf{display:flex;flex-wrap:wrap;align-items:baseline;gap:7px 2px;font-size:14px;font-weight:500;color:#24363A}
+.mf>input,.mf>textarea,.mf>.chips2{flex:1 1 100%}
+.mf span,.mf-l span{font-weight:400;color:var(--muted);font-size:12.5px;margin-left:4px}
+.mf-l{font-size:14px;font-weight:500;color:#24363A}
+.mf input,.mf textarea{width:100%;padding:12px 14px;border-radius:11px;border:1px solid var(--line-2);font:inherit;font-weight:400;font-size:15px;color:var(--text);background:#fff}
+.mf textarea{resize:vertical;min-height:80px}
+.mf input:focus,.mf textarea:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(37,99,235,.14)}
+.mf.bad input{border-color:#E26D5A}
+.chips2{display:flex;flex-wrap:wrap;gap:8px;margin-top:2px}
+.chips2 label{position:relative;cursor:pointer}
+.chips2 input{position:absolute;opacity:0;pointer-events:none}
+.chips2 span{display:inline-block;margin:0!important;padding:8px 14px;border-radius:100px;border:1px solid var(--line-2);font-size:13.5px!important;color:#36464A!important;transition:all .2s}
+.chips2 input:checked+span{background:#EEF4FF;border-color:var(--blue);color:var(--blue)!important}
+.chips2 input:focus-visible+span{outline:2px solid var(--blue);outline-offset:2px}
+.mf-err{font-size:13.5px;color:#C2412D;min-height:0}
+.mf-err:empty{display:none}
+.mf-go{width:100%}
+.mf-small{font-size:12.5px;color:var(--muted);text-align:center}
+.mk-done h3{font-size:26px;margin-bottom:10px}
+.mk-done p{color:var(--muted);margin-bottom:22px}
+@media (max-width:980px){.probs,.ads{grid-template-columns:1fr 1fr}.steps.three{grid-template-columns:1fr}.fin-grid{grid-template-columns:1fr;gap:34px}.cs{grid-template-columns:1fr}}
+@media (max-width:640px){.probs,.ads,.plans.two,.mf2{grid-template-columns:1fr}.mk-form-wrap{padding:22px 18px}.cs{padding:22px}}
+
+/* faq */
+.faq{max-width:800px;margin:0 auto}
+details{border-bottom:1px solid var(--line);padding:24px 0}
+details:first-child{border-top:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:24px;font-size:18px;font-weight:600}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--muted);font-size:26px;line-height:1;transition:transform .25s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{color:var(--muted);margin-top:12px;max-width:700px}
+
+/* final */
+.final{padding:0 0 100px}
+.final-in{border-radius:28px;padding:clamp(34px,6vw,64px);text-align:center;color:#fff;background:radial-gradient(70% 100% at 100% 0%,rgba(59,130,246,.38),transparent 60%),radial-gradient(60% 90% at 0% 100%,rgba(26,158,140,.28),transparent 60%),var(--navy)}
+.final-in h2{font-size:clamp(32px,4.4vw,50px);margin-bottom:14px}
+.final-in p{color:#C9D3EA;font-size:18px;max-width:540px;margin:0 auto 30px}
+.final-in .hero-cta{justify-content:center}
+.final-in small{display:block;margin-top:18px;font-size:14px;color:#A9B6D3}
+.final-in small a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+
+footer{background:var(--navy);color:#A9B6D3;font-size:14px;padding:40px 0}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
+footer a:hover{color:#fff}
+footer .fl{display:flex;gap:22px;flex-wrap:wrap}
+
+.burger{display:none;appearance:none;background:#fff;border:1px solid var(--line-2);width:42px;height:42px;border-radius:12px;cursor:pointer;position:relative;flex-shrink:0}
+.burger span{position:absolute;left:12px;right:12px;height:1.6px;border-radius:2px;background:var(--text);transition:transform .3s,top .3s}
+.burger span:first-child{top:16px}.burger span:last-child{top:24px}
+.burger[aria-expanded="true"] span:first-child{top:20px;transform:rotate(45deg)}
+.burger[aria-expanded="true"] span:last-child{top:20px;transform:rotate(-45deg)}
+.mnav{position:fixed;left:0;right:0;top:68px;height:calc(100dvh - 68px);z-index:19;background:rgba(255,255,255,.98);padding:16px 20px 40px;display:flex;flex-direction:column;overflow-y:auto;overscroll-behavior:contain;opacity:0;transform:translateY(-8px);transition:opacity .25s,transform .25s}
+.mnav.open{opacity:1;transform:none}
+.mnav[hidden]{display:none}
+.mnav a:not(.btn){font:600 24px "Space Grotesk",sans-serif;letter-spacing:-.02em;padding:13px 0;border-bottom:1px solid var(--line)}
+.mnav .btn{margin-top:24px}
+body.menu-open{overflow:hidden}
+@media (max-width:980px){
+  .hero-grid{grid-template-columns:1fr;gap:56px}
+  .mock{max-width:430px}
+  .plans{grid-template-columns:1fr;max-width:560px;margin:0 auto}
+  .plan .for{min-height:0}
+  .extras{grid-template-columns:1fr;max-width:560px;margin-left:auto;margin-right:auto}
+  .steps{grid-template-columns:1fr 1fr}
+  .incl{grid-template-columns:1fr 1fr}
+}
+@media (max-width:640px){
+  .nav-r .hide-m{display:none}
+  .burger{display:block}
+  .nav-r{gap:10px}
+  .hero{padding:60px 0 70px}
+  .hero-cta .btn{flex:1 1 100%}
+  section{padding:80px 0}
+  .t1{left:-6px;bottom:-22px}.t2{right:-6px;top:-20px}
+  .steps,.incl{grid-template-columns:1fr}
+  .extra{flex-direction:column;gap:12px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/* reel in the hero */
+.hero{padding:56px 0 64px}
+@media (min-width:981px){.hero-grid{grid-template-columns:.9fr 1.1fr;gap:44px}}
+.hero h1{font-size:clamp(38px,4.4vw,62px)}
+.hero .reel{width:100%;max-width:none}
+.hero .rl-br{box-shadow:0 60px 110px -40px rgba(0,0,0,.75),0 0 0 1px rgba(255,255,255,.08)}
+.hero .rl-tab{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.16);color:#C9D3EA}
+.hero .rl-tab small{color:#8392B8}
+.hero .rl-tab.on{background:#fff;border-color:#fff;color:#0E1A1C;box-shadow:none}
+.hero .rl-tab.on small{color:#5A6A6E}
+.hero .rl-tabs{justify-content:flex-start;margin-top:18px}
+.hero .rl-tab .pg{background:#60A5FA}
+@media (max-width:980px){.hero .rl-tabs{justify-content:center}.hero-grid{gap:34px}}
+@media (max-width:640px){.hero .rl-tabs{gap:6px;flex-wrap:nowrap}.hero .rl-tab{padding:7px 12px 7px 7px}.hero .rl-tab b{font-size:12px}}
+</style>
+</head>
+<body id="top">
+
+<nav><div class="wrap">
+  <a href="../" class="logo" aria-label="AYSTO home"><svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5EE0C6"/><stop offset="1" stop-color="#3FB8D8"/></linearGradient></defs><rect x=".5" y=".5" width="31" height="31" rx="9" fill="#0E1A1C"/><path d="M9.5 23.5 16 8.5l6.5 15" fill="none" stroke="url(#lg)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="18.6" r="2.3" fill="#5EE0C6"/></svg><span>AYSTO</span></a>
+  <div class="nav-r">
+    <a class="hide-m" href="#how">How it works</a>
+    <a class="hide-m" href="#prices">Prices</a>
+    <a class="hide-m" href="#addons">Add-ons</a>
+    <a class="hide-m" href="#faq">FAQ</a>
+    <a class="hide-m" href="../">For clinics</a>
+    <a class="btn btn-blue btn-sm" href="#" data-book>Book a free call</a>
+    <button type="button" class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mnav"><span></span><span></span></button>
+  </div>
+</div></nav>
+<div class="mnav" id="mnav" hidden>
+  <a href="#top">Top of page</a>
+  <a href="#how">How it works</a>
+  <a href="#prices">Prices</a>
+  <a href="#addons">Add-ons</a>
+  <a href="#faq">FAQ</a>
+  <a href="#mockup">Get your free mockup</a>
+  <a href="../blog/">Blog</a>
+  <a href="../">AYSTO for clinics</a>
+  <a class="btn btn-blue" href="#" data-book>Book a free call →</a>
+</div>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Websites for local businesses</div>
+      <h1>A website that brings in customers. <span>Live in 7 days.</span></h1>
+      <p class="hero-sub">See your new site before you pay a penny. Live in 7 days. Half upfront, half when you're happy with it.</p>
+      <div class="hero-cta">
+        <a class="btn btn-blue" href="#" data-book>Book a free 15 min call <span>→</span></a>
+        <a class="btn btn-ghost" href="#mockup">Get your free mockup</a>
+      </div>
+      <div class="ticks"><span>Free mockup first</span><span>From £950</span><span>You own it</span></div>
+    </div>
+    <div class="reel" id="reel">
+      <div class="rl-fit" id="rl-fit">
+        <div class="rl-stage" id="rl-stage">
+          <div class="rl-br">
+            <div class="rl-top"><i></i><i></i><i></i><span class="rl-url"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><b id="rl-url"></b><u></u></span></div>
+            <div class="rl-view" id="rl-view"></div>
+          </div>
+          <div class="rl-ph"><div class="rl-ph-in"><span class="rl-notch"></span><div class="rl-mview" id="rl-mview"></div></div></div>
+          <div class="rl-toast" id="rl-toast"><span class="rl-ti"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><div><b id="rl-tb"></b><small id="rl-ts"></small></div></div>
+          <div class="rl-cur" id="rl-cur"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M4 2l15 9-7 1.5L9 20z" fill="#fff" stroke="#0B1A3A" stroke-width="1.5" stroke-linejoin="round"/></svg><i></i></div>
+        </div>
+      </div>
+      <div class="rl-tabs" id="rl-tabs" role="tablist" aria-label="Example websites"></div>
+    </div>
+  </div>
+</header>
+
+
+
+<section id="problem">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">The problem</div>
+      <h2>No website, or a tired one,<br><span class="dim">costs you customers every week.</span></h2>
+      <p>You're good at what you do. But if people can't find you, or can't book you, they go to whoever they find first.</p>
+    </div>
+    <div class="probs">
+      <div class="pr"><div class="plan-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></div><h3>They find someone else first</h3><p>People search on Google before they ring anyone. If you're not there, or your site looks old, they call the next business on the list.</p></div>
+      <div class="pr"><div class="plan-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></div><h3>Enquiries go missing after hours</h3><p>Lots of people look for a business in the evening. If there's no way to book or ask a question then, they don't wait until morning.</p></div>
+      <div class="pr"><div class="plan-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></div><h3>A Google listing isn't enough</h3><p>It gets you found, but it doesn't show your work, your prices or why you're the right choice. A proper site does that, then takes the booking.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="how">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">How it works</div>
+      <h2>See it first.<br><span class="dim">Pay when you're happy.</span></h2>
+      <p>No paying upfront for something you haven't seen. Three steps, about a week.</p>
+    </div>
+    <div class="steps three">
+      <div class="step"><div class="n">01</div><h3>Free mockup</h3><p>Tell us about your business on a quick call. We design your new homepage and show it to you. You don't pay a penny to see it.</p></div>
+      <div class="step"><div class="n">02</div><h3>7 day build</h3><p>Like it? Pay half and we build your full site in 7 days, with two rounds of changes along the way.</p></div>
+      <div class="step"><div class="n">03</div><h3>Go live, pay the rest</h3><p>We put it live, connect your domain and set you up on Google. You pay the other half when you're happy with it.</p></div>
+    </div>
+    <div class="incl">
+      <div>Designed for your business</div>
+      <div>Works on every phone</div>
+      <div>Two rounds of changes</div>
+      <div>Your domain connected</div>
+      <div>Set up on Google</div>
+      <div>30 days of support after launch</div>
+      <div>You own the site</div>
+      <div>No long contracts</div>
+    </div>
+  </div>
+</section>
+
+<section id="prices">
+  <div class="wrap">
+    <div class="head c">
+      <div class="eyebrow">Pricing</div>
+      <h2>Two simple packages.</h2>
+      <p>These are starting prices. You get one fixed price on the call, before any work starts.</p>
+    </div>
+    <div class="plans two">
+      <div class="plan">
+        <div class="plan-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2.5"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></svg></div>
+        <h3>Website</h3>
+        <p class="for">For businesses that need to look the part and get found.</p>
+        <div class="price"><small>From</small><b>£950</b><span>one-off</span></div>
+        <ul>
+          <li>Up to 5 pages, designed for your business</li>
+          <li>Works on every phone, and fast</li>
+          <li>Contact form and tap-to-call</li>
+          <li>Set up on Google so people can find you</li>
+          <li>Live in 7 days</li>
+        </ul>
+        <a class="btn btn-line" href="#mockup">Get your free mockup</a>
+      </div>
+      <div class="plan pop">
+        <span class="tag">Most popular</span>
+        <div class="plan-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M8.5 15l2.5 2.5 4.5-5"/></svg></div>
+        <h3>Website + bookings</h3>
+        <p class="for">For businesses that want enquiries and bookings coming in on their own.</p>
+        <div class="price"><small>From</small><b>£1,500</b><span>one-off</span></div>
+        <ul>
+          <li>Everything in the Website package</li>
+          <li>Online booking or an enquiry system</li>
+          <li>Take deposits or payments online</li>
+          <li>Automatic confirmations and reminders</li>
+          <li>Every enquiry sent straight to your phone</li>
+        </ul>
+        <a class="btn btn-blue" href="#mockup">Get your free mockup</a>
+      </div>
+    </div>
+    <p class="pay-note">Free mockup first. Half to start the build, half when you're happy.</p>
+  </div>
+</section>
+
+<section id="addons" class="soft">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Add-ons</div>
+      <h2>Grow once you're live.<br><span class="dim">Add these whenever you're ready.</span></h2>
+      <p>You don't need any of these on day one. They're here for when the enquiries start coming in.</p>
+    </div>
+    <div class="ads">
+      <div class="ad">
+        <div class="plan-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
+        <h3>Online booking</h3>
+        <p>Customers book and pay a deposit online, any time of day, without ringing you.</p>
+        <span class="ad-p">Included with Website + bookings</span>
+      </div>
+      <div class="ad">
+        <div class="plan-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="M8.5 11.5h.01M12 11.5h.01M15.5 11.5h.01"/></svg></div>
+        <h3>AI chatbot</h3>
+        <p>Answers questions, takes bookings and orders on your site, WhatsApp or Instagram. 24/7, in your tone.</p>
+        <span class="ad-p">From £129 a month</span>
+      </div>
+      <div class="ad">
+        <div class="plan-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h1.5M7 8.5v7M11 5v14M15 8v8M19 10.5v3"/></svg></div>
+        <h3>AI phone receptionist</h3>
+        <p>Answers every call, books the job and texts you the details, even when you're on a job.</p>
+        <button type="button" class="hear" id="hear" aria-label="Play a demo call">
+          <span class="pb"><svg class="i-play" width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4v16l13-8z"/></svg><svg class="i-pause" width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></span>
+          <span style="flex:1"><b>Hear it answer a call</b><small>A plumbing firm's AI receptionist · 1:21</small><span class="bar"><i id="hear-bar"></i></span></span>
+        </button>
+        <audio id="hear-audio" preload="metadata" playsinline src="plumbing-call.mp3"></audio>
+        <span class="ad-p">Ask for a quote</span>
+      </div>
+      <div class="ad">
+        <div class="plan-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 0 1-3.4 0"/></svg></div>
+        <h3>Follow-ups and reminders</h3>
+        <p>Automatic reminders, follow-ups on quotes and review requests, so nothing slips.</p>
+        <span class="ad-p">Ask for a quote</span>
+      </div>
+      <div class="ad">
+        <div class="plan-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M18 14.5a6.5 6.5 0 0 1 3.5 5.5"/></svg></div>
+        <h3>Simple CRM</h3>
+        <p>Every lead and customer in one place, so you always know who to call back.</p>
+        <span class="ad-p">Ask for a quote</span>
+      </div>
+      <div class="ad">
+        <div class="plan-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5l8 3v6c0 5-3.4 8.6-8 10-4.6-1.4-8-5-8-10v-6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></div>
+        <h3>Care plan</h3>
+        <p>Small edits, new photos and prices, and we keep your site fast and working.</p>
+        <span class="ad-p">From £79 a month</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     CASE STUDY: your first one goes here.
+     1. Fill in the business, the problem, what you built and the result.
+     2. Delete the word  hidden  from the <section> tag below so it shows.
+     Use real numbers only, with the client's permission.
+     ===================================================================== -->
+<section id="case-study" class="cs-sec" hidden>
+  <div class="wrap">
+    <div class="cs">
+      <div class="cs-img">[ Screenshot of the client's new site ]</div>
+      <div>
+        <div class="eyebrow">Case study</div>
+        <h2>[Business name], [type of business], [area]</h2>
+        <p><b>The problem:</b> [what was going wrong before]</p>
+        <p><b>What we built:</b> [the site and any add-ons]</p>
+        <p><b>The result:</b> [a real result, in their words or with real numbers]</p>
+        <p class="cs-q">"[A short quote from the owner]"</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="head c">
+      <div class="eyebrow">FAQ</div>
+      <h2>Good questions.</h2>
+    </div>
+    <div class="faq">
+      <details><summary>Do I need to provide content?</summary><p>Not much. Your logo if you have one, a few photos and the basics about what you do. If you don't have the words, we'll write them with you on the call.</p></details>
+      <details><summary>Can I make changes later?</summary><p>Yes. You get two rounds of changes during the build, and you can ask for changes any time after. Small edits are covered by the care plan, and we'll quote for anything bigger before we start.</p></details>
+      <details><summary>Who owns the site?</summary><p>You do. The site, the domain and the content are all in your name.</p></details>
+      <details><summary>What if I don't like the mockup?</summary><p>Then you don't pay anything. We can have another go, or you walk away. No hard feelings.</p></details>
+      <details><summary>How do I pay?</summary><p>Half when you've approved the mockup and we start building, and the other half when your site is live and you're happy with it.</p></details>
+      <details><summary>Are there any running costs?</summary><p>Your domain costs a small amount each year, and we'll tell you exactly what it is before we start. Add-ons like the care plan are optional.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="final2" id="mockup">
+  <div class="wrap fin-grid">
+    <div class="fin-copy">
+      <div class="eyebrow">Get your free mockup</div>
+      <h2>See your new site before you pay a penny.</h2>
+      <p>Tell us a bit about your business. We'll design your new homepage and walk you through it on a free 15 minute call.</p>
+      <ul class="fin-ticks"><li>No payment to see your mockup</li><li>Live in 7 days if you go ahead</li><li>Half upfront, half when you're happy</li></ul>
+      <a class="fin-alt" href="#" data-book>Rather just talk? Book a free 15 min call →</a>
+    </div>
+    <div class="mk-form-wrap">
+      <form class="mk-form" id="mk-form" novalidate>
+        <div class="mf2">
+          <label class="mf">Your name<input type="text" name="name" required autocomplete="name"></label>
+          <label class="mf">Business name<input type="text" name="business" required autocomplete="organization"></label>
+        </div>
+        <div class="mf2">
+          <label class="mf">Phone<input type="tel" name="phone" required autocomplete="tel" placeholder="07700 900123"></label>
+          <label class="mf">Email<input type="email" name="email" required autocomplete="email"></label>
+        </div>
+        <label class="mf">Current website <span>optional</span><input type="text" name="website" placeholder="yourbusiness.co.uk or none"></label>
+        <div class="mf"><span class="mf-l">What do you need? <span>pick any</span></span>
+          <div class="chips2"><label><input type="checkbox" name="need" value="A new website"><span>A new website</span></label><label><input type="checkbox" name="need" value="Redo my website"><span>Redo my website</span></label><label><input type="checkbox" name="need" value="Online booking"><span>Online booking</span></label><label><input type="checkbox" name="need" value="AI chatbot"><span>AI chatbot</span></label><label><input type="checkbox" name="need" value="Phone receptionist"><span>Phone receptionist</span></label><label><input type="checkbox" name="need" value="Not sure yet"><span>Not sure yet</span></label></div>
+        </div>
+        <label class="mf">Anything else? <span>optional</span><textarea name="notes" rows="3" placeholder="e.g. I'm a plumber in Croydon and I only have a Google listing"></textarea></label>
+        <p class="mf-err" id="mf-err" role="alert"></p>
+        <button type="submit" class="btn btn-blue mf-go">Get my free mockup <span>→</span></button>
+        <p class="mf-small">No spam and no obligation. We only use this to prepare your mockup.</p>
+      </form>
+      <div class="mk-done" id="mk-done" hidden></div>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">
+  <div>© 2026 AYSTO · Websites and AI for local businesses · London</div>
+  <div class="fl"><a href="../">For clinics</a><a href="../blog/">Blog</a><a href="mailto:hello@aystoai.com">hello@aystoai.com</a></div>
+</div></footer>
+
+<script>
+const CALENDLY_URL = 'https://calendly.com/sdemuse1/aysto-free-call';
+document.querySelectorAll('[data-book]').forEach(a => {
+  a.href = CALENDLY_URL ? CALENDLY_URL : 'mailto:hello@aystoai.com?subject=Website%20enquiry';
+  if (CALENDLY_URL) { a.target = '_blank'; a.rel = 'noopener'; }
+  a.addEventListener('click', () => { try { window.plausible && window.plausible('Book clicked', { props: { page: 'business' } }); } catch (e) {} });
+});
+(() => {
+  const b = document.getElementById('hear'), au = document.getElementById('hear-audio'), bar = document.getElementById('hear-bar');
+  const FALLBACK = ['/business/plumbing-call.mp3', '/media/demo-call-v1.mp3'];
+  let tries = 0;
+  const play = () => { const pr = au.play(); if (pr && pr.catch) pr.catch(() => { if (tries < FALLBACK.length) { au.src = FALLBACK[tries++]; au.load(); play(); } }); };
+  au.addEventListener('error', () => { if (tries < FALLBACK.length) { au.src = FALLBACK[tries++]; au.load(); if (b.classList.contains('want')) play(); } });
+  b.addEventListener('click', () => { if (au.paused) { b.classList.add('want'); play(); } else { b.classList.remove('want'); au.pause(); } });
+  au.addEventListener('play', () => b.classList.add('on'));
+  au.addEventListener('pause', () => b.classList.remove('on'));
+  au.addEventListener('ended', () => { b.classList.remove('on'); bar.style.width = '0'; });
+  au.addEventListener('timeupdate', () => { if (au.duration) bar.style.width = (au.currentTime / au.duration * 100) + '%'; });
+})();
+(() => {
+  const b = document.getElementById('burger'), m = document.getElementById('mnav');
+  const shut = () => { b.setAttribute('aria-expanded', false); document.body.classList.remove('menu-open'); m.classList.remove('open'); m.hidden = true; };
+  b.addEventListener('click', () => { if (b.getAttribute('aria-expanded') === 'true') return shut();
+    b.setAttribute('aria-expanded', true); document.body.classList.add('menu-open'); m.hidden = false; requestAnimationFrame(() => m.classList.add('open')); });
+  m.addEventListener('click', e => { if (e.target.closest('a')) shut(); });
+  addEventListener('keydown', e => { if (e.key === 'Escape') shut(); });
+  addEventListener('resize', () => { if (innerWidth > 640) shut(); });
+  addEventListener('pageshow', shut);
+})();
+
+
+/* ---------- free mockup form ---------- */
+(() => {
+  const FORMSPREE_ID = 'xzedvnzr';           // same inbox as the clinic site
+  const form = document.getElementById('mk-form'), done = document.getElementById('mk-done'), err = document.getElementById('mf-err');
+  form.addEventListener('input', e => { const l = e.target.closest('.mf'); if (l) l.classList.remove('bad'); });
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    let ok = true;
+    form.querySelectorAll('input[required]').forEach(el => {
+      const good = el.value.trim() && (el.type !== 'email' || /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(el.value.trim()));
+      el.closest('.mf').classList.toggle('bad', !good); if (!good) ok = false;
+    });
+    if (!ok) { err.textContent = 'Just fill in the highlighted bits.'; return; }
+    err.textContent = '';
+    const f = new FormData(form), v = k => (f.get(k) || '').toString().trim();
+    const need = f.getAll('need').join(', ') || 'Not given';
+    f.set('need', need); f.set('_subject', `Mockup request · ${v('business')}`); f.set('source', 'aystoai.com/business');
+    const summary = `Business: ${v('business')}\nPhone: ${v('phone')}\nWebsite: ${v('website') || 'none'}\nNeeds: ${need}\nNotes: ${v('notes') || '-'}`;
+    if (FORMSPREE_ID) fetch(`https://formspree.io/f/${FORMSPREE_ID}`, { method: 'POST', body: f, headers: { Accept: 'application/json' } }).catch(() => {});
+    try { window.plausible && window.plausible('Mockup requested'); } catch (e) {}
+    const first = (v('name').split(' ')[0] || 'there').replace(/[<>&"']/g, '');
+    const cal = `${CALENDLY_URL}?hide_gdpr_banner=1&name=${encodeURIComponent(v('name'))}&email=${encodeURIComponent(v('email'))}&a1=${encodeURIComponent(summary)}`;
+    done.innerHTML = `<h3>Thanks, ${first}. We're on it.</h3><p>We'll get in touch to start your mockup. Want to speed it up? Pick a time for your free 15 minute call now and we'll show it to you there.</p><a class="btn btn-blue" href="${cal}" target="_blank" rel="noopener">Pick a time <span>→</span></a>`;
+    form.hidden = true; done.hidden = false;
+  });
+})();
+
+/* ---------- showreel: three example sites, built and booked ---------- */
+(() => {
+  const reel = document.getElementById('reel'); if (!reel) return;
+  const fit = document.getElementById('rl-fit'), stage = document.getElementById('rl-stage');
+  const view = document.getElementById('rl-view'), mview = document.getElementById('rl-mview'), url = document.getElementById('rl-url');
+  const ph = stage.querySelector('.rl-ph'), toast = document.getElementById('rl-toast'), cur = document.getElementById('rl-cur'), tabsEl = document.getElementById('rl-tabs');
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const ICON = {
+    scissors: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4 8.1 15.9M14.5 14.5 20 20M8.1 8.1 12 12"/></svg>',
+    wrench: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0 5 5L22 14l-8 8-2.3-2.3a4 4 0 0 0-5-5L2 10l8-8z"/><path d="m7 17 3-3"/></svg>',
+    cup: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h13v5a6 6 0 0 1-6 6h-1a6 6 0 0 1-6-6z"/><path d="M17 11h1.5a2.5 2.5 0 0 1 0 5H17M8 2.5c-.6 1 .6 2-.2 3M12 2.5c-.6 1 .6 2-.2 3"/></svg>'
+  };
+  const SITES = [
+    { name: 'Fade & Co', type: 'Barbershop', url: 'fadeandco.co.uk', icon: 'scissors',
+      t: { bg: '#121212', ink: '#F4EFE6', acc: '#D9A441', 'acc-ink': '#121212', soft: '#1B1B1B', muted2: '#A9A39A', line2: '#2A2A2A', hf: "'Space Grotesk',sans-serif",
+           art: 'repeating-linear-gradient(135deg,#1E1E1E 0 18px,#262626 18px 36px),#1E1E1E', 'art-ink': '#D9A441' },
+      k: 'Est. 2016 · Peckham', h: 'Sharp cuts.<br>No waiting.', p: 'Walk out looking your best. Book your chair online in seconds, any time of day.',
+      b1: 'Book a chair', b2: 'See prices →', badge: 'Open today · 9am to 7pm',
+      cards: [['Skin fade', '35 min', '£22'], ['Beard trim', '20 min', '£12'], ['Hot towel shave', '30 min', '£25']],
+      sheet: 'Book a chair', day: 2, slot: 4, toast: ['New booking', 'Skin fade · Sat 10:30'] },
+    { name: 'Brightwell Plumbing', type: 'Plumbing & heating', url: 'brightwellplumbing.co.uk', icon: 'wrench',
+      t: { bg: '#F5F8FC', ink: '#0B1A3A', acc: '#1D4ED8', 'acc-ink': '#fff', soft: '#fff', muted2: '#55627A', line2: '#DCE4EF', hf: 'Inter,sans-serif',
+           art: 'radial-gradient(70% 80% at 80% 10%,rgba(96,165,250,.6),transparent 60%),linear-gradient(150deg,#16365C,#0B1A3A)', 'art-ink': '#fff' },
+      k: '24/7 emergency callouts', h: 'Boiler down?<br>We\'re on our way.', p: 'Fixed prices, tidy work and a real person who turns up when they say. Covering South London.',
+      b1: 'Get a quote', b2: 'Call now →', badge: 'Usually there within 2 hours',
+      cards: [['Boiler repair', 'Most brands', 'from £95'], ['Leaks & blockages', 'Same day', 'from £75'], ['Annual service', 'With certificate', '£89']],
+      sheet: 'Book a visit', day: 0, slot: 1, toast: ['New quote request', 'Boiler repair · today 2pm'] },
+    { name: 'Mila\'s Kitchen', type: 'Café & brunch', url: 'milaskitchen.co.uk', icon: 'cup',
+      t: { bg: '#FBF6EE', ink: '#3A2418', acc: '#C2603D', 'acc-ink': '#fff', soft: '#fff', muted2: '#7A6656', line2: '#EEE2D2', hf: 'Fraunces,Georgia,serif',
+           art: 'radial-gradient(60% 70% at 30% 30%,#F3C99A,transparent 60%),radial-gradient(60% 70% at 80% 80%,#E39A72,transparent 60%),#F1DCC2', 'art-ink': '#7A3B22' },
+      k: 'Brunch · Coffee · Cakes', h: 'Brunch worth<br>getting up for.', p: 'Seasonal plates, proper coffee and a table waiting for you. Book ahead for weekends.',
+      b1: 'Book a table', b2: 'View menu →', badge: 'Open 8am, seven days',
+      cards: [['Shakshuka', 'Eggs, peppers, sourdough', '£9.50'], ['Buttermilk pancakes', 'Berries, maple', '£8'], ['Flat white', 'Single origin', '£3.40']],
+      sheet: 'Book a table', day: 3, slot: 2, toast: ['New table booking', '4 people · Sun 11:00'] }
+  ];
+  const DAYS = ['Today', 'Fri', 'Sat', 'Sun', 'Mon'], SLOTS = ['9:00', '10:00', '10:30', '11:00', '12:30', '14:00'];
+
+  const vars = t => Object.entries(t).map(([k, v]) => `--${k}:${v}`).join(';');
+  const site = (S, mobile) => `
+    <div class="${mobile ? 'wm' : 'ws'}" style="${vars(S.t)}">
+      <div class="ws-nav rv"><span class="ws-logo">${S.name}</span><span class="ws-links"><span>Services</span><span>Prices</span><span>About</span><span>Contact</span></span><span class="ws-nb">${S.b1}</span></div>
+      ${mobile ? `<div class="ws-art"><span>${ICON[S.icon]}</span><span class="bdg">${S.badge}</span></div>` : ''}
+      <div class="ws-hero">
+        <div>
+          <div class="ws-k rv" style="--d:.15s">${S.k}</div>
+          <div class="ws-h rv" style="--d:.25s">${S.h}</div>
+          <div class="ws-p rv" style="--d:.4s">${S.p}</div>
+          <div class="ws-cta rv" style="--d:.55s"><span class="ws-b1">${S.b1}</span><span class="ws-b2">${S.b2}</span></div>
+        </div>
+        ${mobile ? '' : `<div class="ws-art"><span>${ICON[S.icon]}</span><span class="bdg">${S.badge}</span></div>`}
+      </div>
+      <div class="ws-cards">${S.cards.map((c, i) => `<div class="ws-c rv" style="--d:${.7 + i * .12}s"><em>${c[2]}</em><b>${c[0]}</b><span>${c[1]}</span></div>`).join('')}</div>
+      ${mobile ? '' : `<div class="ws-modal"><div class="ws-sheet"><h4>${S.sheet}</h4><p>${S.name} · pick a time</p>
+        <div class="ws-days">${DAYS.map((d, i) => `<span class="${i === S.day ? 'on' : ''}">${d}</span>`).join('')}</div>
+        <div class="ws-slots">${SLOTS.map((t, i) => `<span class="${i === 0 || i === 3 && S.slot !== 3 ? 'x' : ''}">${t}</span>`).join('')}</div>
+        <span class="ws-go">Confirm booking</span></div></div>`}
+    </div>`;
+  const skel = '<div class="ws-skel"><i style="height:22px;width:30%"></i><i style="height:14px;width:22%;margin-top:34px"></i><i style="height:46px;width:52%"></i><i style="height:46px;width:40%"></i><i style="height:14px;width:44%"></i><i style="height:40px;width:150px;border-radius:100px"></i><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px"><i style="height:70px"></i><i style="height:70px"></i><i style="height:70px"></i></div></div>';
+
+  tabsEl.innerHTML = SITES.map((S, i) => `<button type="button" class="rl-tab" role="tab" data-i="${i}"><span class="sw" style="background:${S.t.acc};box-shadow:inset 0 0 0 6px ${S.t.bg}"></span><span><b>${S.name}</b><small>${S.type}</small></span><span class="pg"></span></button>`).join('');
+  const tabs = [...tabsEl.children];
+
+  // scale the fixed-size stage to the container
+  const scale = () => stage.style.setProperty('--s', fit.clientWidth / 1000);
+  scale(); new ResizeObserver(scale).observe(fit);
+
+  let token = 0, idx = 0, visible = false, started = false;
+  const wait = (ms, me) => new Promise(r => setTimeout(() => r(me === token), ms));
+  const posOf = el => { const a = el.getBoundingClientRect(), b = stage.getBoundingClientRect(), s = b.width / 1000; return [(a.left - b.left + a.width * .55) / s, (a.top - b.top + a.height * .6) / s]; };
+  const moveTo = el => { const [x, y] = posOf(el); cur.style.transform = `translate(${x}px,${y}px)`; };
+  const click = () => { cur.classList.remove('clk'); void cur.offsetWidth; cur.classList.add('clk'); };
+
+  async function play(i) {
+    const me = ++token, S = SITES[i]; idx = i;
+    tabs.forEach((t, k) => { t.classList.toggle('on', k === i); t.setAttribute('aria-selected', k === i); const pg = t.querySelector('.pg'); pg.style.transition = 'none'; pg.style.width = k < i ? '100%' : '0'; });
+    const pg = tabs[i].querySelector('.pg');
+    requestAnimationFrame(() => { pg.style.transition = 'width 11s linear'; pg.style.width = '100%'; });
+    toast.classList.remove('in'); ph.classList.remove('in'); cur.classList.remove('in');
+    cur.style.transition = 'none'; cur.style.transform = 'translate(900px,560px)'; void cur.offsetWidth; cur.style.transition = '';
+    view.innerHTML = site(S, false) + skel; mview.innerHTML = site(S, true); mview.style.transform = 'none';
+    const ws = view.querySelector('.ws'), sk = view.querySelector('.ws-skel'), wm = mview.querySelector('.wm');
+    if (reduce) { ws.classList.add('in'); wm.classList.add('in'); sk.remove(); ph.classList.add('in'); url.textContent = S.url; return; }
+    // type the address
+    url.textContent = '';
+    for (const ch of S.url) { url.textContent += ch; if (!(await wait(38, me))) return; }
+    if (!(await wait(250, me))) return;
+    sk.classList.add('out'); ws.classList.add('in');
+    if (!(await wait(1500, me))) return;
+    ph.classList.add('in'); setTimeout(() => wm.classList.add('in'), 300);
+    if (!(await wait(900, me))) return;
+    // cursor to the button
+    const b1 = ws.querySelector('.ws-cta .ws-b1');
+    cur.classList.add('in'); moveTo(b1);
+    if (!(await wait(1100, me))) return;
+    click(); b1.classList.add('prs'); setTimeout(() => b1.classList.remove('prs'), 160);
+    const modal = ws.querySelector('.ws-modal');
+    if (!(await wait(250, me))) return;
+    modal.classList.add('in');
+    if (!(await wait(700, me))) return;
+    const slot = modal.querySelectorAll('.ws-slots span')[S.slot];
+    moveTo(slot); if (!(await wait(1050, me))) return;
+    click(); slot.classList.add('on');
+    if (!(await wait(450, me))) return;
+    const go = modal.querySelector('.ws-go'); moveTo(go);
+    if (!(await wait(1050, me))) return;
+    click(); go.classList.add('ok'); go.textContent = 'Booked ✓';
+    document.getElementById('rl-tb').textContent = S.toast[0]; document.getElementById('rl-ts').textContent = S.toast[1];
+    if (!(await wait(350, me))) return;
+    toast.classList.add('in'); cur.classList.remove('in');
+    if (!(await wait(900, me))) return;
+    modal.classList.remove('in');
+    mview.style.transform = `translateY(-${Math.max(0, wm.offsetHeight - mview.parentElement.clientHeight)}px)`;
+    if (!(await wait(2300, me))) return;
+    if (visible) play((i + 1) % SITES.length); else started = false;
+  }
+  tabs.forEach((t, k) => t.addEventListener('click', () => play(k)));
+  new IntersectionObserver(([e]) => { visible = e.isIntersecting; if (visible && !started) { started = true; play(idx); } }, { threshold: .35 }).observe(reel);
+  // first frame before it scrolls into view
+  view.innerHTML = site(SITES[0], false); view.querySelector('.ws').classList.add('in'); url.textContent = SITES[0].url;
+  mview.innerHTML = site(SITES[0], true); mview.querySelector('.wm').classList.add('in'); ph.classList.add('in');
+})();
+</script>
+</body>
+</html>
